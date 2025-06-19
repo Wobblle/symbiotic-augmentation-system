@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symbiotic Augmentation System (SAS) Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .flowchart-node {
+            border-width: 2px;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            z-index: 10;
+        }
+        .flowchart-connector {
+            position: absolute;
+            background-color: currentColor;
+            z-index: 5;
+        }
+        .timeline-item {
+            position: relative;
+            padding-bottom: 2rem;
+            padding-left: 2.5rem;
+        }
+        .timeline-dot {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 9999px;
+            border-width: 3px;
+        }
+        .timeline-line {
+            position: absolute;
+            left: 0.6875rem;
+            top: 1.5rem;
+            bottom: -0.5rem;
+            width: 3px;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <header class="text-center mb-16">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">Symbiotic Augmentation System (SAS)</h1>
+            <p class="mt-4 text-lg md:text-xl text-gray-300 max-w-3xl mx-auto">An exploration into achieving a human-AI **meta-consciousness** through seamless cognitive integration and a novel haptic language.</p>
+        </header>
+
+        <main>
+            <section id="architecture" class="mb-20">
+                <h2 class="text-3xl font-bold text-center mb-2 text-cyan-400">System Architecture</h2>
+                <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">SAS operates as a local Edge AI platform, ensuring privacy and real-time interaction between its core components.</p>
+                <div class="relative max-w-4xl mx-auto p-4 md:p-8 bg-gray-800/50 rounded-xl">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+                        <div class="flowchart-node border-blue-400 bg-blue-900/30 text-blue-300">
+                            <span class="text-2xl mr-2">👤</span> Human User
+                        </div>
+                        <div class="flowchart-node border-cyan-400 bg-cyan-900/30 text-cyan-300">
+                            <span class="text-2xl mr-2">👓</span> Lucid Glasses <br>(Mic, Speakers, Camera)
+                        </div>
+                        <div class="flowchart-node border-blue-400 bg-blue-900/30 text-blue-300">
+                            <span class="text-2xl mr-2">🤖</span> Haptic Interface <br>(Controller & Arrays)
+                        </div>
+                    </div>
+                    <div class="text-center my-8">
+                        <div class="inline-block flowchart-node border-purple-400 bg-purple-900/30 text-purple-300 px-8 py-6 shadow-2xl">
+                            <span class="text-2xl mr-2">🧠</span> Raspberry Pi <br>(AI Processing Unit)
+                        </div>
+                    </div>
+                     <div class="absolute top-0 left-0 w-full h-full opacity-70">
+                        <div class="flowchart-connector text-blue-400" style="top: 25%; left: 16.66%; width: 1px; height: 25%;"></div>
+                        <div class="flowchart-connector text-cyan-400" style="top: 25%; left: 50%; width: 1px; height: 25%;"></div>
+                        <div class="flowchart-connector text-blue-400" style="top: 25%; left: 83.33%; width: 1px; height: 25%;"></div>
+                        <div class="flowchart-connector text-purple-400" style="left: 16.66%; top: 50%; width: 66.66%; height: 1px;"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="innovations" class="mb-20">
+                <h2 class="text-3xl font-bold text-center mb-12 text-cyan-400">Core Innovations</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                        <h3 class="text-2xl font-bold mb-3 text-blue-400 flex items-center"><span class="text-3xl mr-3">💬</span> Haptic Cognition Language (HCL)</h3>
+                        <p class="text-gray-300">A novel communication protocol using multi-dimensional vibrations, allowing the brain to intuitively interpret complex AI insights as direct sensations, bypassing cognitive overload.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                        <h3 class="text-2xl font-bold mb-3 text-blue-400 flex items-center"><span class="text-3xl mr-3">🎯</span> Contextual Augmentation</h3>
+                        <p class="text-gray-300">The AI proactively delivers hyper-relevant insights by understanding the user's environment, tasks, and historical patterns, minimizing distraction and maximizing utility.</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                        <h3 class="text-2xl font-bold mb-3 text-blue-400 flex items-center"><span class="text-3xl mr-3">🧠</span> Neuroplasticity-Driven Integration</h3>
+                        <p class="text-gray-300">The system dynamically personalizes its haptic output based on user feedback, fostering an organic integration where AI suggestions begin to feel like natural intuition.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="hcl" class="mb-20">
+                <h2 class="text-3xl font-bold text-center mb-2 text-cyan-400">The Haptic Cognition Language (HCL)</h2>
+                <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">HCL is structured like a language, with basic sensory units ("phonemes") combining to form meaningful concepts ("morphemes") and complex messages ("sentences").</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                        <h3 class="text-2xl font-bold mb-4 text-blue-400">Haptic "Phonemes": The Building Blocks</h3>
+                        <p class="text-gray-400 mb-6">These are the most basic distinguishable qualities of vibration.</p>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-200">Intensity (Amplitude)</h4>
+                                <div class="chart-container h-24"><canvas id="intensityChart"></canvas></div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-200">Frequency (Texture)</h4>
+                                <div class="chart-container h-24"><canvas id="frequencyChart"></canvas></div>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-200">Directional Movement</h4>
+                                <p class="text-gray-400 text-sm">A "wave" moving across the LRA array (e.g., left-to-right) to signify progress or valence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700">
+                         <h3 class="text-2xl font-bold mb-4 text-blue-400">Example "Sentence"</h3>
+                        <p class="text-gray-400 mb-6">Combining primitives creates nuanced meaning.</p>
+                        <div class="border-l-4 border-cyan-500 pl-4 space-y-4 text-gray-300">
+                            <p><strong class="text-cyan-400">Category:</strong> `Cognitive/Internal` (A brief, crisp hum on wrist).</p>
+                            <p><strong class="text-cyan-400">Action:</strong> `Focus on Item #7` (A strong pulse on LRA #7).</p>
+                            <p><strong class="text-cyan-400">Suggestion:</strong> `Consider Further` (A steady, sustained hum).</p>
+                            <div class="mt-4 pt-4 border-t border-gray-600">
+                                <p class="font-bold text-lg text-white">Full Interpretation:</p>
+                                <p>"The AI suggests focusing on a specific thought or option, labeled as #7, as it may be the solution."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="timeline" class="mb-20">
+                 <h2 class="text-3xl font-bold text-center mb-12 text-cyan-400">Project Roadmap</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                     <div>
+                        <h3 class="text-2xl font-bold mb-6 text-blue-400 text-center">Hardware Requirements</h3>
+                        <div class="bg-gray-800 p-6 rounded-lg shadow-lg border border-gray-700 space-y-4">
+                            <div>
+                                <h4 class="font-bold text-lg text-gray-200">👓 Smart Glasses</h4>
+                                <p class="text-gray-400 ml-4">- Lucid Glasses (Mic/Speakers)<br>- Raspberry Pi Camera Module 3</p>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg text-gray-200">🧠 AI Processing Unit</h4>
+                                <p class="text-gray-400 ml-4">- Raspberry Pi 5 (Recommended)<br>- Optional: NVIDIA Jetson / Google Coral</p>
+                            </div>
+                             <div>
+                                <h4 class="font-bold text-lg text-gray-200">🤖 Haptic System</h4>
+                                <p class="text-gray-400 ml-4">- ESP32 Haptic Controller<br>- TI DRV2605L Driver ICs<br>- 18-26 Total LRAs (Linear Resonant Actuators)</p>
+                            </div>
+                        </div>
+                     </div>
+                     <div>
+                        <h3 class="text-2xl font-bold mb-6 text-blue-400 text-center">Development Phases</h3>
+                        <div class="relative">
+                            <div class="timeline-line bg-gray-700"></div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot border-cyan-400 bg-gray-900"></div>
+                                <h4 class="text-xl font-bold text-gray-100">Phase 1: AI Vision & Glasses</h4>
+                                <p class="text-sm font-semibold text-cyan-400 mb-2">Months 1-18</p>
+                                <p class="text-gray-300">Integrate camera, establish real-time AI vision, and set up audio I/O on the core processing unit.</p>
+                            </div>
+                             <div class="timeline-item">
+                                <div class="timeline-dot border-cyan-400 bg-gray-900"></div>
+                                <h4 class="text-xl font-bold text-gray-100">Phase 2: Haptic Interface & Language</h4>
+                                <p class="text-sm font-semibold text-cyan-400 mb-2">Months 9-24</p>
+                                <p class="text-gray-300">Build physical haptic arrays and begin intensive, iterative personal training to learn the HCL primitives.</p>
+                            </div>
+                             <div class="timeline-item">
+                                <div class="timeline-dot border-cyan-400 bg-gray-900"></div>
+                                <h4 class="text-xl font-bold text-gray-100">Phase 3: Merging Reasoning</h4>
+                                <p class="text-sm font-semibold text-cyan-400 mb-2">Years 3-5+</p>
+                                <p class="text-gray-300">Continuous refinement, AI model enhancement, and the gradual emergence of a symbiotic, meta-conscious interaction.</p>
+                            </div>
+                        </div>
+                     </div>
+                 </div>
+            </section>
+        </main>
+
+        <footer class="text-center mt-16 pt-8 border-t border-gray-700">
+            <p class="text-gray-500">Symbiotic Augmentation System (SAS) | A Conceptual Design</p>
+        </footer>
+    </div>
+    
+    <!-- Confirmation: NEITHER Mermaid JS NOR SVG were used in this output. All diagrams and charts are rendered using HTML/CSS with Tailwind and the HTML5 Canvas via Chart.js. -->
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const wrapLabel = (label) => {
+                const maxLength = 16;
+                if (typeof label !== 'string' || label.length <= maxLength) return label;
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                for (const word of words) {
+                    if ((currentLine + ' ' + word).trim().length > maxLength) {
+                        lines.push(currentLine.trim());
+                        currentLine = word;
+                    } else {
+                        currentLine = (currentLine + ' ' + word).trim();
+                    }
+                }
+                if (currentLine) lines.push(currentLine.trim());
+                return lines;
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                } else {
+                    return label;
+                }
+            };
+            
+            const chartOptions = {
+                maintainAspectRatio: false,
+                responsive: true,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255, 255, 255, 0.1)' },
+                        ticks: { color: '#9CA3AF', font: { weight: '600' } }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: '#D1D5DB', font: { weight: '600' } }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: '#1F2937',
+                        titleColor: '#E5E7EB',
+                        bodyColor: '#D1D5DB',
+                        callbacks: {
+                           title: tooltipTitleCallback
+                        }
+                    }
+                }
+            };
+
+            const colors = {
+                cyan: 'rgba(34, 211, 238, 0.7)',
+                blue: 'rgba(96, 165, 250, 0.7)',
+                purple: 'rgba(167, 139, 250, 0.7)'
+            };
+
+            const intensityData = {
+                labels: ['Soft', 'Medium', 'Strong'].map(wrapLabel),
+                datasets: [{
+                    label: 'Intensity',
+                    data: [30, 65, 100],
+                    backgroundColor: [colors.cyan, colors.blue, colors.purple],
+                    borderColor: [colors.cyan.replace('0.7', '1'), colors.blue.replace('0.7', '1'), colors.purple.replace('0.7', '1')],
+                    borderWidth: 1
+                }]
+            };
+
+            const frequencyData = {
+                labels: ['Low (Rumble)', 'Mid (Buzz)', 'High (Hum)'].map(wrapLabel),
+                datasets: [{
+                    label: 'Frequency',
+                    data: [50, 150, 300], // Example Hz values
+                    backgroundColor: [colors.cyan, colors.blue, colors.purple],
+                    borderColor: [colors.cyan.replace('0.7', '1'), colors.blue.replace('0.7', '1'), colors.purple.replace('0.7', '1')],
+                    borderWidth: 1
+                }]
+            };
+
+            new Chart(document.getElementById('intensityChart'), {
+                type: 'bar',
+                data: intensityData,
+                options: { ...chartOptions, plugins: { ...chartOptions.plugins, tooltip: { ...chartOptions.plugins.tooltip, callbacks: { ...chartOptions.plugins.tooltip.callbacks, label: (c) => ` Perceived Magnitude: ${c.raw}%` } } } }
+            });
+
+            new Chart(document.getElementById('frequencyChart'), {
+                type: 'bar',
+                data: frequencyData,
+                options: { ...chartOptions, plugins: { ...chartOptions.plugins, tooltip: { ...chartOptions.plugins.tooltip, callbacks: { ...chartOptions.plugins.tooltip.callbacks, label: (c) => ` Approx. ${c.raw} Hz` } } } }
+            });
+
+        });
+    </script>
+</body>
+</html>
